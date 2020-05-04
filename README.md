@@ -3,7 +3,9 @@ A Cloud disk for all the data needed for drone system
 
 
 
+One thing to mention before:
 
+This website is only used for simulation on how a whole drone system works. 
 
 
 
@@ -58,8 +60,25 @@ After you have cloned the repository, and done some revisions on your local repo
 ```bash
 git add . #which adds all your changes to the website
 git commit -m "XXXX" #XXXX is the place for you to write what you have done on this version of your work
-git push origin Drone_Data  #finally you push your work to the website
+git push origin master  #finally you push your work to the website
 ```
+
+You only need to change "XXXX" every time, and the mark "" is needed. 
+
+One example:
+
+```bash
+git add . 
+git commit -m "Readme updated" 
+git push origin master 
+```
+
+
 
 **One thing to mention is that: you need to first use `cd` command to go into your local repository, and then type the commands above.**
 
+
+
+# Useful Tool
+
+There are some softwares like "Github Desktop" which simplifies the process above. If you have troubles with those above, maybe you can turn to use those tools instead.
