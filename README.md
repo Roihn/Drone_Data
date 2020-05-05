@@ -1,3 +1,14 @@
+# This is a branch just for test
+what branch means?
+
+branch is almost the same with the master branch, but has a little addition.
+
+To simply saying, if a master branch contains a design of a robot, a branch called "move" contains the design and codes to let the robot move.
+
+When you finished all the application with "move", we can merge the branch "move" to master branch. 
+
+Some instructors may say that you'd better to create a branch when you first pull a new request. From my point of view, if there is no technical issue for pulling a new request to master branch, easier is better (no branch is better).
+
 # Drone_Data
 A Cloud disk for all the data needed for drone system
 
