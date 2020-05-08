@@ -51,11 +51,29 @@ you need to follow the following grammar:
 git clone "the repository you need to clone" "where you want to put your local repository"
 ```
 
-For this project, you only need to **change the latter one**.
+For this project, you need to change **both of the parts**
+
+To get the first part, you need to do the following:
+
+#### Fork
+
+ You need to fork this repository to your own account first, so that you will have the permission to do the changes.
+
+**How to fork?**
+
+there is a button on this website. just press the button `fork` and find it in your own repository.
+
+Then in **your** repository, press `Clone and download`->`Clone with SSH`
+
+And the code in the blank will be the SSH of your repository ("the repository you need to clone").
+
+
+
+The second part will be the either the absolute path of your folder, or you use command `cd` to go to the folder first, and just keep the place blanc. 
 
 ### Push
 
-After you have cloned the repository, and done some revisions on your local repository, you can push what you have done to the website.
+After you have cloned the repository, and done some revisions on your local repository, you can push what you have done to the **fork** of this repository.
 
 ```bash
 git add . #which adds all your changes to the website
@@ -78,6 +96,18 @@ git push origin master
 **One thing to mention is that: you need to first use `cd` command to go into your local repository, and then type the commands above.**
 
 
+
+### Pull new Request
+
+You need to pull new request to this repository, so that your changes made in your fork will finally get updated to this repository. 
+
+You can pull a new request on the website. After pulling a request, I will do the check and merge it.
+
+
+
+### Fetch
+
+Everytime you start your project, please fetch the repository first. Fetch means you need to know what has been updated on the website, and do the update on your local repository.
 
 # Useful Tool
 
